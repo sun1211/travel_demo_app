@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travel_demo_app/models/destination_model.dart';
+import 'package:travel_demo_app/screen/details/detail_screen.dart';
 import 'package:travel_demo_app/screen/home/components/detination_card.dart';
 
 import 'header_destination_carousel.dart';
@@ -21,7 +22,13 @@ class DestiantionCarousel extends StatelessWidget {
               itemIndex: index,
               destination: destinations[index],
               press: () {
-                print('index ${index}');
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => DetailScreen(
+                            destination: destinations[index],
+                          )),
+                );
               },
             ),
           ),

@@ -1,6 +1,6 @@
-# Welcome App
+# Travel App
 
-Welcome App is a demo UI for login
+Travel App is a demo UI
 
 ## Installation
 
@@ -31,3 +31,4 @@ flutter run -d chrome
 
 ## Screen Shot
 ![](https://raw.githubusercontent.com/sun1211/travel_demo_app/master/screenShot/Screenshot_1614609467.png)
+![](https://raw.githubusercontent.com/sun1211/travel_demo_app/master/screenShot/Screenshot_1614693754.png)
