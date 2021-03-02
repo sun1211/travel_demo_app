@@ -29,22 +29,6 @@ class Body extends StatelessWidget {
           )
         ],
       ),
-
-      //        Column(
-      // children: [
-      //   DetailCoverImage(destination: destination),
-      //   Expanded(
-      //     child: ListView.builder(
-      //       padding: EdgeInsets.only(top: 10.0, bottom: 15.0),
-      //       itemCount: destination.activities.length,
-      //       itemBuilder: (context, index) => DetailCard(
-      //         itemIndex: index,
-      //         press: () {},
-      //         activity: destination.activities[index],
-      //       ),
-      //     ),
-      //   )
-      // ]
     );
   }
 }
